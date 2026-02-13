@@ -13,7 +13,7 @@ class AddTask(BaseModel):
     title: str
 
 class CompleteTask(BaseModel):
-    tg_id: int
+    id: int
 
 @asynccontextmanager
 async def lifespan(app_:FastAPI):
